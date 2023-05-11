@@ -1,0 +1,74 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    padding: 0 5% ;
+}
+/* li{color: white;} */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: url(images/josh-sorenson-H9pgj5zIFug-unsplash.jpg);
+    background-repeat: no-repeat;
+    padding: 7% auto;
+    max-height: 100vh;
+}
+
+.image-section{
+    display: flex;
+    justify-content: space-around;
+    margin-right:10% ;
+    margin-left:10% ;
+    margin-top: 3%;
+    padding: 2.5%;
+    transition: transform 800ms;
+}
+
+ /* .image-section{
+    transition: background-size 800ms;
+}  */
+
+.image-section:hover{
+    background-size: 160%;
+}
+/* .image-section:hover{
+    transform: translateX(-20px);
+} */
+
+
+ .image1:hover{
+    transform: translateY(-20px);
+    
+ }
+ 
+ .image2:hover{
+    transform: translateY(-20px);
+ }
+ 
+ .image3:hover{
+    transform: translateY(-20px);
+ }
+
+
+
+button{
+    background:linear-gradient(180deg, #593F73 30.47%, rgba(89, 63, 115, 0.380469) 86%, rgba(76, 55, 98, 0.35) 86.01%);
+    color: white;
+    border-radius: 7px;
+    box-shadow: 10%;
+    position: absolute;
+    margin-left: 45%;
+    margin-bottom: 30%;
+    width: 150px;
+}
+
+
+
+
